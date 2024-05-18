@@ -1,0 +1,25 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    width: 90%;
+    height: 100vh auto;
+
+    & .presentacion{
+        & .textito-presentacion{
+            color: rgb(5, 5, 129);
+        }
+    }
+    & .boton{
+       
+       color: white;
+       background-color: rgb(2, 70, 0);
+    }
+    & .boton:hover{
+        background-color: rgb(35, 182, 35);
+    }
+}
+
