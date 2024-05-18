@@ -14,9 +14,13 @@ body{
         }
     }
     & .boton{
-       
+       font-size: large;
+       width: 90px;
+       height: 30px;
        color: white;
        background-color: rgb(2, 70, 0);
+       border: none;
+       outline: none;
     }
     & .boton:hover{
         background-color: rgb(35, 182, 35);
